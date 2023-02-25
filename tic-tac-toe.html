@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="tic-tac-toe.css">
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+  <div id="board">
+    <div class="square" id="0" onclick="handleSquareClick(event)"></div>
+    <div class="square" id="1" onclick="handleSquareClick(event)"></div>
+    <div class="square" id="2" onclick="handleSquareClick(event)"></div>
+    <div class="square" id="3" onclick="handleSquareClick(event)"></div>
+    <div class="square" id="4" onclick="handleSquareClick(event)"></div>
+    <div class="square" id="5" onclick="handleSquareClick(event)"></div>
+    <div class="square" id="6" onclick="handleSquareClick(event)"></div>
+    <div class="square" id="7" onclick="handleSquareClick(event)"></div>
+    <div class="square" id="8" onclick="handleSquareClick(event)"></div>
+  </div>
+  <div class="announcement"> </div>
+
+  <div class="scoreboard">
+    <h2>Score Board</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Player X</th>
+          <th>Player O</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td id="playerX-score">0</td>
+            <td id="playerO-score">0</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <script src="tic-tac-toe.js"></script>
+</body>
+</html>
